@@ -1,8 +1,7 @@
 #ifndef TESTAESFERA_H_
 #define TESTAESFERA_H_
-#include <iostream>
-using namespace std;
 #include "Esfera.h"
+
 class TestaEsfera{
     private:
         Esfera *Objeto = new Esfera;

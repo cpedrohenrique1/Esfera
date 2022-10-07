@@ -1,8 +1,9 @@
+#include <iostream>
+using namespace std;
 #include "TestaEsfera.h"
 
 int main(){
-    TestaEsfera *Obj = new TestaEsfera;
-    Obj->menu();
-    Obj->~TestaEsfera();
+    TestaEsfera Obj;
+    Obj.menu();
     return 0;
 }
